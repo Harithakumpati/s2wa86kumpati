@@ -22,9 +22,9 @@ router.get('/', function (req, res, next) {
   let cbrt = Math.cbrt(x)
   res.render('computation', {
     title: 'Computation',
-    values: `applied to ` + x + ` is ` + atan2 ,
-    v1: `applied to ` + x + ` is ` + atanh,
-    v2: `applied to ` + x + ` is ` + cbrt,
+    v1: `applied to ` + x + ` is ` + atan2 ,
+    v2: `applied to ` + x + ` is ` + atanh,
+    v3: `applied to ` + x + ` is ` + cbrt,
     
   });
 });
